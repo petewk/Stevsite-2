@@ -1,0 +1,185 @@
+:root {
+  --main-green: #3f6163;
+  --main-blue: #23B5D3;
+  --main-gray: #f3f3f3;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--main-green);
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  text-align: center;
+}
+
+section {
+  height: 100vh;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navbar {
+  font-weight: 600;
+  background-color: var(--main-gray);
+  height: 7%;
+  font-size: 1.1rem;
+}
+
+.brand {
+  width: 50%;
+  padding-left: 2%;
+}
+
+.navlist, a {
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--main-green);
+}
+
+.navlist {
+  right: 5%;
+  width: 50%;
+  text-align: right;
+  margin: auto 0 auto auto;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: auto 2%;
+}
+
+#titleCard {
+  text-align: center;
+  width: 60%;
+  margin: 5% auto 0;
+  padding: 4%;
+}
+
+#socialMedia {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.small {
+  height: 15vh !important;
+}
+
+#socialMedia > p {
+  display: inline-block;
+  font-size: 2.8rem;
+  margin: 5% 10%;
+  padding-top: 10%;
+}
+
+#facebook {
+  color: #4267b2;
+}
+
+#insta {
+  color: transparent;
+ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+ -webkit-background-clip: text;
+}
+
+#carousel {
+  max-height: 80vh;
+  overflow: hidden;
+  transition: 2s;
+}
+
+#carousel:hover ~ #blurb{
+  opacity: 0;
+}
+
+#blurb {
+  width: 75vw;
+  position: absolute;
+  z-index: 1;
+  top: 100vh;
+  height: 80vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(243,243,243,1) 10%, rgba(243,243,243,1) 90%, rgba(255,255,255,0) 100%);
+  transition: 0.4s;
+}
+
+#blurb div{
+  width: 50vw;
+  margin: 2px auto;
+}
+
+.photoGuideBottom {
+  width: 80%;
+  font-weight: 600;
+  margin: 10% auto 0;
+}
+
+.photoGuideTop {
+  width: 80%;
+  font-weight: 600;
+  margin: 2% auto 10%;
+}
+
+.callToAction {
+  background-color: var(--main-gray);
+  width: 60vw;
+  height: 60vh;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+input {
+  width: 60%;
+  display: block;
+  margin: 5% auto;
+  text-align: center;
+  border: 1px solid var(--main-green);
+  height: 2rem;
+  font-weight: 600;
+}
+
+textarea {
+  border: none;
+  margin: 0 auto;
+  width: 60%;
+  display: block;
+  border: 1px solid var(--main-green);
+  resize: none;
+  font-weight: 600;
+}
+
+.callToAction h3 {
+  margin: 8px;
+  padding: 0px 5px;
+  font-weight: 600;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}
