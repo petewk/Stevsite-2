@@ -212,7 +212,7 @@ textarea {
 
 @media (max-width: 1200px) {
   body {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   section {
     height: 50vh;
@@ -245,5 +245,10 @@ textarea {
   #video {
     margin-top: 90vh;
     height: 50vh;
+  }
+
+  .callToAction {
+    width: 100vw;
+    height: 60vh;
   }
 }
