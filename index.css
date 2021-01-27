@@ -99,9 +99,7 @@ li {
   transition: 2s;
 }
 
-#carousel:hover ~ #blurb{
-  opacity: 0;
-}
+
 
 #blurb {
   width: 75vw;
@@ -206,16 +204,42 @@ textarea {
    text-align: center;
 }
 
-@media (max-width: 1200px) {
-  body {
-    background-color: lightblue;
+@media (min-width: 1200px) {
+  #carousel:hover ~ #blurb{
+    opacity: 0;
   }
+}
+
+@media (max-width: 1200px) {
   section {
     height: 50vh;
     display: block;
   }
 
+  #titleCard {
+    width: 100vw;
+  }
+
+  #titleCard > img {
+    width: 80%;
+  }
+
   #blurb {
     display: block;
+    width: 100vw;
+    background-color: var(--main-gray);
+    margin-top: 5%;
+  }
+
+  #blurb > div {
+    width: 100vw;
+    margin-top: 10%;
+  }
+  .photoGuideTop, .photoGuideBottom {
+    display: none;
+  }
+
+  #video {
+    margin-top: 90vh;
   }
 }
