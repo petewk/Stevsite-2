@@ -327,4 +327,8 @@ font-weight: 600;
     width: 100vw;
     height: 45vh;
   }
+
+  .callToAction > h3 {
+    font-size: 2rem;
+  }
 }
