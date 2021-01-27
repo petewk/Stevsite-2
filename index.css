@@ -205,3 +205,7 @@ textarea {
 :-ms-input-placeholder {
    text-align: center;
 }
+
+@media (max-width: 550px) {
+  
+}
