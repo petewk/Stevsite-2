@@ -216,7 +216,7 @@ textarea {
     font-size: 2rem;
   }
   section {
-    height: 50vh;
+    height: 50%;
     display: block;
   }
 
@@ -274,10 +274,11 @@ font-weight: 600;
 
   #blurb {
     display: block;
-    width: 95vw;
+    width: 100vw;
     background-color: var(--main-gray);
-    margin-top: 5%;
-    height: 50vh;
+    height: 50%;
+    position: relative;
+    top: 35px;
   }
 
   #blurb > div {
@@ -316,16 +317,20 @@ font-weight: 600;
     width: 80vw;
   }
 
+  #carousel {
+    max-height: 550px;
+    overflow: hidden;
+  }
 
 
   #video {
-    margin-top: 55vh;
-    height: 35vh;
+    margin: 10% auto;
+    height: 35%;
   }
 
   .callToAction {
     width: 100vw;
-    height: 45vh;
+    height: 45%;
   }
 
   .callToAction > h3 {
