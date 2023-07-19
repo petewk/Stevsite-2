@@ -158,9 +158,9 @@ video {
 .callToAction {
   background-color: var(--main-gray);
   width: 60vw;
-  height: 60vh;
   margin: 0 auto;
   padding: 3rem 0;
+  min-height: 30px;
 }
 
 input {
