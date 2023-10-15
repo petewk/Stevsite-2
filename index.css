@@ -59,6 +59,10 @@ li {
   margin: auto 2%;
 }
 
+.blurbTitle {
+  font-size: 1.2em;
+}
+
 #titleCard {
   text-align: center;
   width: 60%;
@@ -114,6 +118,8 @@ li {
   background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(243,243,243,1) 10%, rgba(243,243,243,1) 90%, rgba(255,255,255,0) 100%);
   transition: 0.4s;
   overflow: auto;
+  display: flex;
+    align-items: center;
 }
 
 #blurb div{
@@ -125,12 +131,14 @@ li {
   width: 80%;
   font-weight: 600;
   margin: 10% auto 0;
+  font-size: 1em;
 }
 
 .photoGuideTop {
   width: 80%;
   font-weight: 600;
   margin: 2% auto 10%;
+  font-size: 1em;
 }
 
 .med {
@@ -147,7 +155,7 @@ li {
 
 
 video {
-  width: 75vw;
+  width: 65vw;
   margin: 0 auto;
 }
 
@@ -305,6 +313,8 @@ font-weight: 600;
     font-weight: bold;
     font-size: 1.5rem;
   }
+
+
   .blurbTitle {
     font-weight: bold;
     font-size: 1.1em;
